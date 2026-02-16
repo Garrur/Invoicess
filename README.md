@@ -109,6 +109,15 @@ firebase deploy --only hosting:invoice-2fd34-5b493
 
 Your app will be deployed to: **https://invoice-2fd34-5b493.web.app**
 
+### Deploy to Vercel
+
+For detailed Vercel deployment instructions, see **[VERCEL_DEPLOY.md](VERCEL_DEPLOY.md)**
+
+**Quick Setup:**
+1. Import your repository to Vercel
+2. Add environment variables (especially `NODE_OPTIONS=--openssl-legacy-provider`)
+3. Deploy
+
 ## 📁 Project Structure
 
 ```
